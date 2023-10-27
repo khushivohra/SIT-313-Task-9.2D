@@ -1,0 +1,45 @@
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:focus {
+  color: #FFD700; /* Change color on focus */
+}
+
+/* Style the login button */
+.login-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+.login-button:focus {
+  outline: none;
+}
+
+/* Add a subtle transition effect to the navbar on hover */
+nav:hover {
+  background-color: #444;
+}
